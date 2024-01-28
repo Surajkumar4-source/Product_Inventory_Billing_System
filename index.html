@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Product Inventory</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Product Inventory</h1>
+        <div id="product-list">
+            <!-- Product list will be displayed here -->
+        </div>
+        <p>Total Inventory Value: <span id="total-value">0.00</span></p>
+        <form id="add-product-form">
+            <input type="text" id="product-name" placeholder="Product Name" required>
+            <input type="number" id="product-price" placeholder="Price" required>
+            <input type="number" id="product-quantity" placeholder="Quantity" required>
+            <button type="submit">Add Product</button>
+        </form>
+        <button id="print-bill-button">Print Bill</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
